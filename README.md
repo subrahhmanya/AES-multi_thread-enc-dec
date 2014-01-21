@@ -1,4 +1,4 @@
-AES-encrypt-and-decrypt-under-python
+AES-multi_thread-enc-dec
 ====================================
 
 This project is base on the  AES of  c library . We Use Multi-thread to Optimization the speed of Encrypt and Decrypt. Through the study found.the number of thread exactly the Cpu Cores number,the performance best.By above ways.make a aes.so dynamic library to be call by python.the speed python call the aes.so is  faster than pycrypt which python library.
